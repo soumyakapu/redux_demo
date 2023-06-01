@@ -14,8 +14,6 @@ export const reducer =(state=intialState, action)=>{
         }
     }
     else{
-        return{
-            state
-        }
+        return state
     }
 }
